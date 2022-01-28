@@ -7,9 +7,9 @@ import pandas as pd
 
 # Requirements 
 # Python 3.5 or greater
-# numpy
-# pandas
-# matplotlib
+# numpy 1.22.1
+# pandas 1.3.5
+# matplotlib 3.5.1
 
 # param - parameter to plot
 
