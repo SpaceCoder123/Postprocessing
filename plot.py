@@ -29,7 +29,7 @@ param3_Xdata=(full_data[(col_list[4])].dropna())
 param3_Ydata=(full_data[(col_list[5])].dropna())
 
 fig, ax = plt.subplots()
-ax.tick_params(axis='both', which='major', labelsize=15) #sets subplots for all data, change font size in label size 
+ax.tick_params(axis='both', which='major', labelsize=15) #sets subplots for all data,LABELSIZE changes font size in label size 
 
 plt.plot(param1_Xdata,param1_Xdata)
 
