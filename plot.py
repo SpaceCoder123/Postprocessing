@@ -2,6 +2,9 @@ import matplotlib.pyplot as plt
 from numpy import full
 import pandas as pd
 
+# Code devoloped by Dr. Gopalakrishna N
+
+
 # Requirements 
 # Python 3.5 or greater
 # numpy
@@ -37,3 +40,6 @@ plt.plot(param3_Xdata,param3_Ydata)
 plt.legend(["Param1","Param 2","Param 3"]) #legend
 
 plt.show()
+
+#main features of this code
+# can plot data which have varying grid points (Grid Independent Data) in the same plot
