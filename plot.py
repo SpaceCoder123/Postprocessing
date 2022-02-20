@@ -22,7 +22,7 @@ full_data= pd.read_excel("pressure_data_grid.xlsx",usecols=col_list) #read the e
 #line 8-15 removes all unwated blank spaces in the data collected
 
 param1_Xdata=(full_data[(col_list[0])].dropna()) 
-param1_Xdata=(full_data[(col_list[1])].dropna())
+param1_Ydata=(full_data[(col_list[1])].dropna())
 param2_Xdata=(full_data[(col_list[2])].dropna())
 param2_Ydata=(full_data[(col_list[3])].dropna())
 param3_Xdata=(full_data[(col_list[4])].dropna())
@@ -34,7 +34,7 @@ ax.tick_params(axis='both', which='major', labelsize=15) #sets subplots for all 
 # LABELSIZE: change font size in label size 
 # TICK PARAMS: Change the appearance of ticks, tick labels, and gridlines a parameter defined in WHICH
 
-plt.plot(param1_Xdata,param1_Xdata)
+plt.plot(param1_Xdata,param1_Ydata)
 
 plt.plot(param2_Xdata,param2_Ydata)
 
